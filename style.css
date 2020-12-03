@@ -1,0 +1,73 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    ;
+}
+
+#subtitle {
+    font-weight: bold;
+    color: #333333;
+}
+
+#instructions {
+    color: #666666
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #666666;
+}
+
+#video-compare-container {
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+    margin: 0 auto;
+}
+
+#video-compare-container>video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+#video-clipper {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#video-clipper video {
+    width: 200%;
+    position: absolute;
+    height: 100%;
+}
