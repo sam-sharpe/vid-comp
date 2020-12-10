@@ -15,15 +15,23 @@ body {
 
 h1 {
     font-family: 'PT Serif', serif;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     color: #333333;
 }
 
 h2 {
     font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.3rem;
     ;
+}
+
+input {
+    position: relative;
+    margin: 2px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
 }
 
 #subtitle {
@@ -32,7 +40,8 @@ h2 {
 }
 
 #instructions {
-    color: #666666
+    color: #666666;
+    font-style: italic;
 }
 
 p {
